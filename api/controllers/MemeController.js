@@ -6,10 +6,10 @@
  */
 
 module.exports = {
-	all: all
+	find: find
 };
 
-function all(req, res) {
+function find(req, res) {
   var memeUrls = [
     'http://cdn.meme.am/instances/500x/13734123.jpg',
     'http://s2.quickmeme.com/img/6d/6d68ad25beab779467cf2e95c7c3de742f4df17ad4e38176a71886f566816424.jpg',
